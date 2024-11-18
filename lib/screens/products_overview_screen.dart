@@ -1,9 +1,8 @@
-import 'package:e_shop/widgets/app_drawer.dart';
-import 'package:e_shop/widgets/badge.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../provider/cart.dart';
 import '../provider/products.dart';
+import '../widgets/app_drawer.dart';
 import '../widgets/products_grid.dart';
 import 'cart_screen.dart';
 
@@ -90,7 +89,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
           Consumer(
             builder: (context, value, child) {
               return Badge(
-              value: cartData.cartItemsFigure.toString(),
+              label: Text(cartData.cartItemsFigure.toString()),
               child: IconButton(
                 icon: const Icon(Icons.shopping_cart),
                 onPressed: () {

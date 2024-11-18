@@ -1,9 +1,10 @@
-import 'package:e_shop/provider/products.dart';
-import 'package:e_shop/screens/edit_product_screen.dart';
-import 'package:e_shop/widgets/app_drawer.dart';
-import 'package:e_shop/widgets/user_products_item.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../provider/products.dart';
+import '../widgets/app_drawer.dart';
+import '../widgets/user_products_item.dart';
+import 'edit_product_screen.dart';
 
 class UserProductsScreen extends StatelessWidget {
   static const id = 'user_prod_screen';

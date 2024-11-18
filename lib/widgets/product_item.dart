@@ -1,7 +1,7 @@
-import 'package:e_shop/provider/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../provider/auth.dart';
 import '../provider/cart.dart';
 import '../provider/product.dart';
 import '../screens/products_detail_screen.dart';

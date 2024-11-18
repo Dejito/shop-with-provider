@@ -1,16 +1,18 @@
-import 'package:e_shop/provider/auth.dart';
-import 'package:e_shop/provider/cart.dart';
-import 'package:e_shop/provider/orders.dart';
-import 'package:e_shop/provider/products.dart';
-import 'package:e_shop/screens/auth_screen.dart';
-import 'package:e_shop/screens/cart_screen.dart';
-import 'package:e_shop/screens/edit_product_screen.dart';
-import 'package:e_shop/screens/order_screen.dart';
-import 'package:e_shop/screens/products_detail_screen.dart';
-import 'package:e_shop/screens/user_products_screen.dart';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:e_shop/screens/products_overview_screen.dart';
 import 'package:provider/provider.dart';
+import 'package:shop_using_provider/provider/auth.dart';
+import 'package:shop_using_provider/provider/cart.dart';
+import 'package:shop_using_provider/provider/orders.dart';
+import 'package:shop_using_provider/provider/products.dart';
+import 'package:shop_using_provider/screens/auth_screen.dart';
+import 'package:shop_using_provider/screens/cart_screen.dart';
+import 'package:shop_using_provider/screens/edit_product_screen.dart';
+import 'package:shop_using_provider/screens/order_screen.dart';
+import 'package:shop_using_provider/screens/products_detail_screen.dart';
+import 'package:shop_using_provider/screens/products_overview_screen.dart';
+import 'package:shop_using_provider/screens/user_products_screen.dart';
 
 void main() {
   runApp(const MyApp());

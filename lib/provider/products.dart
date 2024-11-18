@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'product.dart';
-import 'package:e_shop/provider/product.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

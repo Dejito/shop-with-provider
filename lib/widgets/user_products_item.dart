@@ -1,8 +1,8 @@
-import 'package:e_shop/screens/edit_product_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../provider/products.dart';
+import '../screens/edit_product_screen.dart';
 
 class UserProductsItem extends StatelessWidget {
 

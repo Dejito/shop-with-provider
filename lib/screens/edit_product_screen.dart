@@ -1,6 +1,6 @@
-import 'package:e_shop/provider/product.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../provider/product.dart';
 import '../provider/products.dart';
 
 class EditProductScreen extends StatefulWidget {
